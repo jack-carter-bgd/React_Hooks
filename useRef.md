@@ -60,7 +60,11 @@ clearInterval(interValRef.current)
 <button onClick={() => clearInterval(interval)
 ```
 > useRef pored toga što može da ima referencu na dom node, koristeći ref atribut, takođe može smeštati mutable value. Korisno je da neće dolaziti do novog renderovanja kad se vrednost promeni i vrednost će se sačunati i posle renderovanja.
-5. P
+5. Pravimo ref varijablu 
+```jsx 
+const interValRef = useRef()
+```
+6. Menjamo varijablu interval sa
 
 
 ```jsx
@@ -90,6 +94,6 @@ export default HookTimer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTk5MDMxNTYsLTU5MDAxOTY3MCwxOT
-c5NTg3ODA2XX0=
+eyJoaXN0b3J5IjpbNDYwNzUzMDQxLC01OTAwMTk2NzAsMTk3OT
+U4NzgwNl19
 -->
