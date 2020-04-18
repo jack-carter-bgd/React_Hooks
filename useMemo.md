@@ -1,7 +1,13 @@
 # useMemo
 
+Se koristi za optimizaciju brzine tako što izbegava renderovanje tamo gde nije potrebno. U sledećem primeru se svaki put izvršava `while (i < 2000000000) i++` kod iako do promene nije došlo.
+
+1. Uvozimo `{ useState, useMemo }`
+2. Pozivamo `useMemo()` i kao prvi arument dajemo funkciju čiji return treba da se kešira (u našem slučaju funkcija koja proverava da li je broj paran ili neparan)
+3. Kao drugi parametar definišeno Dependencies, u našem slučaju [counterOne]
+
 ```jsx
-import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo } from 'react' // <--- 1
 
 function Counter() {
 	const [counterOne, setCounterOne] = useState(0)
@@ -15,11 +21,11 @@ function Counter() {
 		setCounterTwo(counterTwo + 1)
   }
 
-  const isEven = useMemo(() => {
+  const isEven = useMemo(() => { // <--- 2
     let i = 0
     while (i < 2000000000) i++
     return counterOne % 2 === 0
-  }, [counterOne])
+  }, [counterOne]) // <--- 3
 
 	return (
 		<div>
