@@ -55,7 +55,7 @@ setTimer(timer => timer + 1)
 return () => {
 clearInterval(interValRef.current)
 ```
-4. 
+4. Resetujemo tajmer na dugme
 
 
 ```jsx
@@ -85,6 +85,6 @@ export default HookTimer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MDU3NDc0LC01OTAwMTk2NzAsMTk3OT
-U4NzgwNl19
+eyJoaXN0b3J5IjpbLTIwNzU1MDgxMDEsLTU5MDAxOTY3MCwxOT
+c5NTg3ODA2XX0=
 -->
