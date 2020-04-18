@@ -55,7 +55,7 @@ setTimer(timer => timer + 1)
 return () => {
 clearInterval(interValRef.current)
 ```
-4. Resetujemo tajmer na dugme, ali sledeći kod neće raditi 
+4. Resetujemo tajmer na dugme, ali sledeći kod neće raditi jer varijabla interval je definisana u useEffect i nije dostupna ovde. Zato koristimo useRef
 ```jsx 
 <button onClick={() => clearInterval(interval)
 ```
@@ -88,6 +88,6 @@ export default HookTimer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDMyMzA5NDAsLTU5MDAxOTY3MCwxOT
-c5NTg3ODA2XX0=
+eyJoaXN0b3J5IjpbNTEwMDg5NTg4LC01OTAwMTk2NzAsMTk3OT
+U4NzgwNl19
 -->
