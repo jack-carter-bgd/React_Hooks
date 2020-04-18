@@ -64,10 +64,11 @@ clearInterval(interValRef.current)
 ```jsx 
 const interValRef = useRef()
 ```
-6. Menjamo varijablu setInterval i clearInterval 
+6. Menjamo varijablu u setInterval i clearInterval 
 ```jsx
 interValRef.current = setInterval(()
 clearInterval(interValRef.current)
+onClick={() => clearInterval(interValRef.current)
 ```
 7. 
 ```jsx
@@ -101,6 +102,6 @@ export default HookTimer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjAwMzc5MSwtNTkwMDE5NjcwLDE5Nz
-k1ODc4MDZdfQ==
+eyJoaXN0b3J5IjpbOTY4MjE1MjcxLC01OTAwMTk2NzAsMTk3OT
+U4NzgwNl19
 -->
