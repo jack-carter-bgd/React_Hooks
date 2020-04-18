@@ -74,10 +74,7 @@ interValRef.current = setInterval(()
 clearInterval(interValRef.current)
 onClick={() => clearInterval(interValRef.current)
 ```
-8. 
-```jsx
 
-```
 
 ```jsx
 import React, {useState, useEffect, useRef} from 'react'
@@ -106,6 +103,6 @@ export default HookTimer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjY5MTk1OSwtNTkwMDE5NjcwLDE5Nz
-k1ODc4MDZdfQ==
+eyJoaXN0b3J5IjpbLTQyMjM5NzQzMiwxNDMyNjkxOTU5LC01OT
+AwMTk2NzAsMTk3OTU4NzgwNl19
 -->
