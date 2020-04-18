@@ -55,8 +55,10 @@ setTimer(timer => timer + 1)
 return () => {
 clearInterval(interValRef.current)
 ```
-4. Resetujemo tajmer na dugme
-5
+4. Resetujemo tajmer na dugme, ali sledeći kod neće raditi 
+```jsx 
+<button onClick={() => clearInterval(interval)
+```
 
 
 ```jsx
@@ -86,6 +88,6 @@ export default HookTimer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDQzNDkyMCwtNTkwMDE5NjcwLDE5Nz
-k1ODc4MDZdfQ==
+eyJoaXN0b3J5IjpbLTExNDMyMzA5NDAsLTU5MDAxOTY3MCwxOT
+c5NTg3ODA2XX0=
 -->
