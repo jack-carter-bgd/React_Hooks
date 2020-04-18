@@ -45,12 +45,14 @@ export default FocusInput
 
 1. Importovanje `{useState, useEffect, useRef}`
 2. Kreiramo State varijablu ` const [timer, setTimer] = useState(0)`
-3. useEffect gde kao prvi parametar postavljamo `setInterval`
+3. useEffect  `setInterval`
 ```jsx
 setInterval(() => {
 setTimer(timer => timer + 1)
 }, 1000)
 ```
+4. 
+
 
 ```jsx
 import React, {useState, useEffect, useRef} from 'react'
@@ -79,6 +81,6 @@ export default HookTimer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxOTAwNTEzOCwtNTkwMDE5NjcwLDE5Nz
+eyJoaXN0b3J5IjpbLTkyMjUzMTI5NSwtNTkwMDE5NjcwLDE5Nz
 k1ODc4MDZdfQ==
 -->
