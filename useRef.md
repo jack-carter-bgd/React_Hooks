@@ -64,11 +64,15 @@ clearInterval(interValRef.current)
 ```jsx 
 const interValRef = useRef()
 ```
-6. Menjamo varijablu interval sa novonapravljenom ref varijablom
+6. Menjamo varijablu setInterval i clearInterval 
 ```jsx
 interValRef.current = setInterval(()
+clearInterval(interValRef.current)
 ```
+7. 
+```jsx
 
+```
 
 ```jsx
 import React, {useState, useEffect, useRef} from 'react'
@@ -97,6 +101,6 @@ export default HookTimer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU4ODAzMDksLTU5MDAxOTY3MCwxOT
-c5NTg3ODA2XX0=
+eyJoaXN0b3J5IjpbMjAwNjAwMzc5MSwtNTkwMDE5NjcwLDE5Nz
+k1ODc4MDZdfQ==
 -->
