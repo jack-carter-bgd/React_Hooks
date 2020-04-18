@@ -59,6 +59,7 @@ clearInterval(interValRef.current)
 ```jsx 
 <button onClick={() => clearInterval(interval)
 ```
+> useRef pored toga što može da ima
 
 
 ```jsx
@@ -88,6 +89,6 @@ export default HookTimer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwMDg5NTg4LC01OTAwMTk2NzAsMTk3OT
+eyJoaXN0b3J5IjpbMzI3OTIwNzcwLC01OTAwMTk2NzAsMTk3OT
 U4NzgwNl19
 -->
