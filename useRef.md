@@ -42,6 +42,7 @@ export default FocusInput
 ```
 
 ## setInterval, clearInterval
+[enter link description here](https://www.youtube.com/watch?v=LWg0OyZQffc&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=72)
 
 1. Importovanje `{useState, useEffect, useRef}`
 2. Kreiramo State varijablu ` const [timer, setTimer] = useState(0)`
@@ -64,7 +65,7 @@ clearInterval(interValRef.current)
 ```jsx 
 const interValRef = useRef()
 ```
-6. Menjamo varijablu u setInterval i clearInterval 
+6. Menjamo varijablu u `setInterval`, `clearInterval` i `onClick` 
 ```jsx
 interValRef.current = setInterval(()
 clearInterval(interValRef.current)
@@ -102,6 +103,6 @@ export default HookTimer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4MjE1MjcxLC01OTAwMTk2NzAsMTk3OT
-U4NzgwNl19
+eyJoaXN0b3J5IjpbLTEwOTY4NzMzMTgsLTU5MDAxOTY3MCwxOT
+c5NTg3ODA2XX0=
 -->
