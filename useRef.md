@@ -45,7 +45,7 @@ export default FocusInput
 
 1. Importovanje `{useState, useEffect, useRef}`
 2. Kreiramo State varijablu ` const [timer, setTimer] = useState(0)`
-3. 
+3. useEffect u kom postavljamo `setTimer`
 
 
 ```jsx
@@ -75,5 +75,5 @@ export default HookTimer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwMTA2OTAxXX0=
+eyJoaXN0b3J5IjpbMTk3OTU4NzgwNl19
 -->
