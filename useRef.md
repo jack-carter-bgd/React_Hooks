@@ -1,13 +1,10 @@
 # useRef
 
 Sa useRef možemo direktno da pristupimo DOM Nodes. Koristimo ga npr. za fokusiranje username u ligin forme.
- 1. Uvezemo `{ useRef, useEffect }`.
- 2. Unutar funkcije pozivamo useEffect. 
-	 
- 3. useEffect prihvata arrow function ( ) => { }  i  	 dependency array
-    [ ]. Arraz ostavljamo prazan jer želimo
-
- da funkciju pokrenemo samo jednom. 
+1. Uvezemo `{ useRef, useEffect }`.
+2. Unutar funkcije pozivamo useEffect. 
+	* useEffect prihvata arrow function ( ) => { }  i 
+	* dependency array [ ]. Arraz ostavljamo prazan jer želimo da funkciju pokrenemo samo jednom. 
 ```jsx
 useEffect(() => {
     
@@ -48,6 +45,7 @@ export default FocusInput
 
 1. Importovanje `{useState, useEffect, useRef}`
 2. Kreiramo State varijablu ` const [timer, setTimer] = useState(0)`
+3. 
 
 
 ```jsx
@@ -77,5 +75,5 @@ export default HookTimer
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDAxMDddfQ==
+eyJoaXN0b3J5IjpbNjMwMTA2OTAxXX0=
 -->
